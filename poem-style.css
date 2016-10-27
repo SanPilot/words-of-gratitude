@@ -1,0 +1,187 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  height: 100%;
+  font-family: 'Lora', serif;
+}
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.header-section .content-container {
+  opacity: 0;
+  margin-bottom: 25%;
+  transition: opacity 2.5s, margin-bottom 0.5s;
+}
+
+.header-section .header {
+  font-weight: 700;
+  font-size: 60pt;
+  color: #333333;
+}
+
+.header-section .secondary {
+  font-weight: 400;
+  font-size: 20pt;
+  color: #4d4d4d;
+  line-height: 150%;
+}
+
+.section-2 {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30pt;
+  color: #333333;
+}
+
+.section-2 .content-container {
+  opacity: 0;
+  margin-top: 10%;
+  transition: opacity 1s, margin-top 0.5s;
+}
+
+.section-2 .top {
+  font-style: italic;
+  color: #4d4d4d;
+}
+
+.section-2 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.section-2 b {
+  font-style: italic;
+}
+
+.section-2 .author {
+  font-style: italic;
+  font-size: 20pt;
+  color: #4d4d4d;
+}
+
+.section-3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  font-size: 30pt;
+  color: #ededed;
+}
+
+.section-3 .content-container {
+  opacity: 0;
+  margin-top: 10%;
+  transition: opacity 1s, margin-top 0.5s;
+}
+
+.section-3 .italic {
+  font-style: italic;
+}
+
+.section-3 .author {
+  text-align: right;
+  font-size: 20pt;
+  color: #cccccc;
+}
+
+.section-4 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.section-4 .content-container {
+  opacity: 0;
+  transition: opacity 1s, margin-bottom 0.5s;
+}
+
+.section-4 .header {
+  color: #4d4d4d;
+  font-size: 30pt;
+  font-style: italic;
+}
+
+.section-4 .poem-line {
+  color: #333333;
+  font-size: 30pt;
+}
+
+.section-5 {
+  padding: 50px;
+  flex-direction: column;
+  width: 25%;
+}
+
+.section-5 .content-container {
+  padding-top: 50px;
+  opacity: 0;
+  margin-top: 10%;
+  transition: opacity 1s, margin-top 0.5s;
+}
+
+.section-5 .header {
+  color: #4d4d4d;
+  font-size: 30pt;
+  font-style: italic;
+}
+
+.section-5 .poem-line {
+  color: #333333;
+  font-size: 30pt;
+}
+
+.section-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-6 .poem-line {
+  font-size: 80pt;
+  color: #ffffff;
+  font-weight: 700;
+  font-style: italic;
+  opacity: 0;
+  margin-top: 10%;
+  transition: opacity 1s, margin-top 0.5s;
+}
+
+.backgrounds {
+  z-index: -9999;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.background-image {
+  position: fixed;
+  top: -13%;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+.blue-background {
+  top: 0;
+  background-color: #3f9ed1;
+  height: 100%;
+  width: 100%;
+}
