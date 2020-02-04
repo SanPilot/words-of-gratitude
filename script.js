@@ -59,7 +59,7 @@ $(document).scroll(() => {
 
   // Loop that determines which backgrounds should be opaque
   for(var i = 1; i <= numOfBackgrounds; i++) {
-    if(($("body").scrollTop() / $(window).height()) + 1.5 >= i) {
+    if(($(document).scrollTop() / $(window).height()) + 1.5 >= i) {
       $("#background-section-"+i).css("opacity", 1);
     } else {
       $("#background-section-"+i).css("opacity", 0);
