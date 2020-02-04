@@ -72,7 +72,7 @@ $(document).scroll(() => {
 
   // Loop for entrance animations
   for(var i = 1; i <= numOfBackgrounds; i++) {
-    if(($("body").scrollTop() / $(window).height()) + 1.3 >= i && !entranceAnimations[i].played) {
+    if(($(document).scrollTop() / $(window).height()) + 1.3 >= i && !entranceAnimations[i].played) {
       entranceAnimations[i].animation();
     }
   }
